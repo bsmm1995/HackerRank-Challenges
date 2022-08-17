@@ -1,9 +1,10 @@
-import main.Main;
+package com.bsmm.steps;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class StepsTest {
+class MainTest {
 
     @Test
     void getTotalSteps() {
