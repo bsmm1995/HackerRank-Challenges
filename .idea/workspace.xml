@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e57a46-a852-4874-b939-325c97ca2699" name="Changes" comment="Improvements" />
+    <list default="true" id="34e57a46-a852-4874-b939-325c97ca2699" name="Changes" comment="Improvements">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsmm/network/Challenge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsmm/network/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bsmm/network/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsmm/steps/Challenge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsmm/steps/Challenge.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,27 +45,92 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/bladt/Documents/Projects/Java/HackerRank-Challenges/src/main/java/com/bsmm/steps",
+    "last_opened_file_path": "C:/Users/BladimirStanislaoMin/BP/Backend/EVALUACIONES/HackerRank-Challenges/src/main/java/com/bsmm/networkAdd",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BladimirStanislaoMin\BP\Backend\EVALUACIONES\HackerRank-Challenges\src\main\java\com\bsmm\networkAdd" />
+      <recent name="C:\Users\BladimirStanislaoMin\BP\Backend\EVALUACIONES\HackerRank-Challenges\src\main\java\com\bsmm" />
+      <recent name="C:\Users\BladimirStanislaoMin\BP\Backend\EVALUACIONES\HackerRank-Challenges\src\main\java\com\bsmm\steps" />
       <recent name="C:\Users\bladt\Documents\Projects\Java\HackerRank-Challenges\src\main\java\com\bsmm\steps" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bsmm.network" />
       <recent name="com.bsmm.steps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bsmm.networkAdd" />
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.com.bsmm.network.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsmm.network.Main" />
+      <module name="HackerRank-Challenges.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bsmm.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bsmm.steps.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsmm.steps.Main" />
+      <module name="HackerRank-Challenges.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bsmm.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.getNetworkAddress" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.bsmm.network.MainTest.getNetworkAddress&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MainTest.getNetworkAddress" />
+        <item itemvalue="Application.com.bsmm.steps.Main" />
+        <item itemvalue="Application.com.bsmm.network.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660777223403</updated>
       <workItem from="1660777225703" duration="1015000" />
+      <workItem from="1660779820975" duration="4576000" />
     </task>
     <task id="LOCAL-00001" summary="Improvements">
       <created>1660777639619</created>

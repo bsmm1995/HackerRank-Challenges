@@ -7,9 +7,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the string in uppercase: ");
-        String input = scanner.nextLine().toUpperCase();
+        String input = scanner.nextLine().trim().toUpperCase();
 
-        System.out.println(String.format("The process takes %d seconds.\n\n", getTotalSteps(input, getData())));
+        System.out.printf("The process takes %d seconds.\n\n%n", getTotalSteps(input, getData()));
     }
 
     public static LinkedList getData() {
@@ -27,7 +27,7 @@ public class Main {
 
         int length = input.length();
         if (length < 1 || length > Math.pow(10, 5)) {
-            throw new RuntimeException("String size is not allowed.");
+            throw new IllegalStateException("String size is not allowed.");
         }
 
         for (int i = 0; i < length; i++) {

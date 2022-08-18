@@ -1,0 +1,10 @@
+Contar el esfuerzo que tomaría imprimir un conjunto de letras mayúsculas:
+ s = input
+
+1 >= s <= 10^5
+
+Ejemplos:
+    Dado BZA debería mostrar 4
+    Dado ZNMD debería mostrar 23
+    
+ 

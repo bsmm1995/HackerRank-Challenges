@@ -1,0 +1,32 @@
+Given an IP with the format a.a.a.a where a is a number between 0-255 and a subnet mask with the same format a.a.a.a, your task is to find the network address and print it. The network address can be found doing a binary AND between the two addresses. Example:
+
+IP Address: 192.128.64.5
+Subnet Mask: 255.255.0.0
+
+In binary we have:
+IP Address: 11000000.10000000.01000000.00000101
+Subnet Mask: 11111111.11111111.00000000.00000000
+Network Address: 11000000.10000000.00000000.00000000
+
+So the output is: 192.128.0.0
+
+Input Format
+
+The first line contains the IP Address in the format a.a.a.a where 0 <= a <= 255.
+The second line contains the Subnet Mask in the format a.a.a.a where 0 <= a <= 255.
+
+Constraints
+
+0 <= a <= 255
+
+Output Format
+
+The network address in the format a.a.a.a where 0 <= a <= 255.
+
+Sample Input 0
+
+192.128.64.5
+255.255.0.0
+Sample Output 0
+
+192.128.0.0
